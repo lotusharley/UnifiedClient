@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--Created by exporting the settings of a KryptonPalette instance.-->
+<!--For more information about Krypton visit www.ComponentFactory.com-->
+<!--WARNING: Modifying this file may render it invalid for importing.-->
+<KryptonPalette Version="18" Generated="Tuesday, 11 September 2018, 09:44">
+  <Properties>
+    <ToolMenuStatus>
+      <Button>
+        <ButtonSelectedBorder Type="Color" Value="62, 62, 64" />
+        <ButtonSelectedGradientBegin Type="Color" Value="62, 62, 64" />
+        <ButtonSelectedGradientEnd Type="Color" Value="62, 62, 64" />
+        <ButtonSelectedGradientMiddle Type="Color" Value="62, 62, 64" />
+        <ButtonSelectedHighlight Type="Color" Value="62, 62, 64" />
+        <ButtonSelectedHighlightBorder Type="Color" Value="62, 62, 64" />
+        <OverflowButtonGradientBegin Type="Color" Value="62, 62, 64" />
+        <OverflowButtonGradientEnd Type="Color" Value="62, 62, 64" />
+        <OverflowButtonGradientMiddle Type="Color" Value="62, 62, 64" />
+      </Button>
+      <Menu>
+        <MenuBorder Type="Color" Value="51, 51, 55" />
+        <MenuItemText Type="Color" Value="White" />
+      </Menu>
+      <MenuStrip>
+        <MenuStripText Type="Color" Value="White" />
+        <MenuStripFont Type="Font" Value="微软雅黑, 9pt" />
+        <MenuStripGradientBegin Type="Color" Value="45, 45, 48" />
+        <MenuStripGradientEnd Type="Color" Value="45, 45, 48" />
+      </MenuStrip>
+      <StatusStrip>
+        <StatusStripText Type="Color" Value="White" />
+        <StatusStripGradientBegin Type="Color" Value="23, 23, 25" />
+        <StatusStripGradientEnd Type="Color" Value="23, 23, 25" />
+      </StatusStrip>
+      <ToolStrip>
+        <ToolStripBorder Type="Color" Value="27, 27, 28" />
+        <ToolStripContentPanelGradientBegin Type="Color" Value="27, 27, 28" />
+        <ToolStripContentPanelGradientEnd Type="Color" Value="27, 27, 28" />
+        <ToolStripDropDownBackground Type="Color" Value="27, 27, 28" />
+      </ToolStrip>
+    </ToolMenuStatus>
+    <BasePaletteMode Type="PaletteMode" Value="Office 2010 - Black" />
+  </Properties>
+  <Images />
+</KryptonPalette>
