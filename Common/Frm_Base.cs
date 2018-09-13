@@ -22,6 +22,7 @@ namespace Underflow.Common
 
         private void Frm_Base_Load(object sender, EventArgs e)
         {
+            Frm_DialogOkOnly.CreateDialog("Hello World").ShowDialog();
             
         }
     }
