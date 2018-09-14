@@ -108,6 +108,10 @@
     <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{2119509b-2a04-46aa-b587-67e111bbf56c}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IExtension\IExtension.csproj">
       <Project>{e9ed163f-bdcf-41e4-b71e-6b940aa6fb8a}</Project>
       <Name>IExtension</Name>

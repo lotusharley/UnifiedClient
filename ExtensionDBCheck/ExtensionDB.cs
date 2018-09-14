@@ -33,8 +33,8 @@ namespace ExtensionDBCheck
 
         private void MenuItem_Click(object sender, EventArgs e)
         {
-            IExtension.DialogOKOnly dlgOK = new IExtension.DialogOKOnly();
-            dlgOK.ShowDialog();
+            var dlg = Underflow.Common.Frm_DialogOkOnly.CreateDialog("HIHIHI","Warning","OK", Underflow.Common.ENUM_DIALOG_IMAGE.DIALOG_IMAGE_CONFUSED);
+            dlg.ShowDialog();
         }
 
         public string GetExtensionName()
