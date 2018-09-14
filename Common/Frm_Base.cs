@@ -22,8 +22,17 @@ namespace Underflow.Common
 
         private void Frm_Base_Load(object sender, EventArgs e)
         {
-            Frm_DialogOkOnly.CreateDialog("Hello World").ShowDialog();
-            
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("本周主要对人客合一新版进行开发，主要开发内容包括");
+            sb.AppendLine("1、人客合一 美容院版本 新版本的开发");
+            sb.AppendLine("2、人客合一 易宝支付的开发 APP版本易宝支付的接入开发工作");
+            sb.AppendLine("3、人客合一 美容院版本 平台接口的开发及更新，主要包括 首面、用户管理、员工管理、返款等。");
+            sb.AppendLine("1、人客合一 美容院版本 新版本的开发");
+            sb.AppendLine("2、人客合一 易宝支付的开发 APP版本易宝支付的接入开发工作");
+            sb.AppendLine("3、人客合一 美容院版本 平台接口的开发及更新，主要包括 首面、用户管理、员工管理、返款等。");
+
+            var dlg = Frm_DialogOkOnly.CreateDialog(sb.ToString(),"测试","OK", ENUM_DIALOG_IMAGE.DIALOG_IMAGE_ANGRY);
+            dlg.ShowDialog();
         }
     }
 }

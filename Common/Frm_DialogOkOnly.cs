@@ -19,20 +19,33 @@ namespace Underflow.Common
             InitializeComponent();
         }
 
-        public static Frm_DialogOkOnly CreateDialog(string DialogMessage, string DialogCaption = "提示", string ButtonText = "确定")
+        public static Frm_DialogOkOnly CreateDialog(string DialogMessage, string DialogCaption = "提示", string ButtonText = "确定", ENUM_DIALOG_IMAGE DialogImage = ENUM_DIALOG_IMAGE.DIALOG_IMAGE_NONE)
         {
             if (m_Instance == null)
                 m_Instance = new Frm_DialogOkOnly();
 
-            m_Instance.lab_Message.Text = DialogMessage;
+            m_Instance.txt_Message.Text = DialogMessage;
             m_Instance.Text = DialogCaption;
             m_Instance.btn_OK.Text = ButtonText;
+
+            if(DialogImage == ENUM_DIALOG_IMAGE.DIALOG_IMAGE_NONE)
+            {
+                m_Instance.pic_DlgImg.Visible = false;
+            }
+            else
+            {
+                m_Instance.pic_DlgImg.ImageLocation = AppDomain.CurrentDomain.BaseDirectory + "Resource\\" + DialogImage.ToString().Replace("DIALOG_IMAGE_", "") + ".png";
+            }
 
             return m_Instance;
         }
 
         public new void Show()
         {
+            {
+                string a;
+                string b;
+            };
             this.ShowDialog();
         }
 

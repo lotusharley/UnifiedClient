@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Underflow.Common
+{
+    public enum ENUM_DIALOG_IMAGE
+    {
+        DIALOG_IMAGE_NONE=0,
+        DIALOG_IMAGE_ANGRY = 1,
+        DIALOG_IMAGE_BAFFLED=2,
+        DIALOG_IMAGE_BLOCKED=3,
+        DIALOG_IMAGE_BUBBLE=4,
+        DIALOG_IMAGE_CONFUSED=5,
+        DIALOG_IMAGE_COOL=6,
+        DIALOG_IMAGE_CROSS=7,
+        DIALOG_IMAGE_CRYING=8,
+        DIALOG_IMAGE_EVIL=9,
+        DIALOG_IMAGE_FRUSTATED=10,
+        DIALOG_IMAGE_GRIN=11,
+        DIALOG_IMAGE_HAMMER=12,
+        DIALOG_IMAGE_HAPPY=13,
+        DIALOG_IMAGE_HIPSTER=14,
+        DIALOG_IMAGE_NEUTRAL=15,
+        DIALOG_IMAGE_NOTIFICATION=16,
+        DIALOG_IMAGE_QUESTION=17,
+        DIALOG_IMAGE_SAD=18,
+        DIALOG_IMAGE_SHOCKED=19,
+        DIALOG_IMAGE_SLEEPY=20,
+        DIALOG_IMAGE_SMILE=21,
+        DIALOG_IMAGE_TONGUE=22,
+        DIALOG_IMAGE_WINK=23,
+        DIALOG_IMAGE_WONDERING=24
+    }
+}
