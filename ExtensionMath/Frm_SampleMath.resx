@@ -117,10 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Paltte_Manager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>162, 17</value>
-  </metadata>
-  <metadata name="ThemeManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="kryptonButton2.Values.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAADhSURBVGhD7ZaxDQMxDMR+pOy/RH6EbJJYRYAUvIurswoRYHOgAZW+hiHDY/lcvv9YTbXt2Dn+
+        a7XtoEOdUegAp4LahDg6FdQmxNGpoDYhjk4FtQlxdCqoTYijU0Ftwi3oobMdryUdSt7LdtT3oA6jg3+t
+        puVXYhiaMN/y09Chzi3oYUIFtU4cEyqodeKYUEGtE8eECmqdOCZUUOvEMaGCWmcUOsDZjvmWD8Mh5ht8
+        GjrUGYUOcCqoTYijU0FtQhydCmoT4uhUUJsQR6eC2oQ4OhXUJtyCHjrbMd/gYWjJdX0AxY+6avT/SWoA
+        AAAASUVORK5CYII=
+</value>
+  </data>
 </root>

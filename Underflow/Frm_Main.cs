@@ -31,16 +31,25 @@ namespace Underflow
 
         private void Frm_Main_Load(object sender, EventArgs e)
         {
-            var extensions = ExtensionHelper.GetInstance().Extensions;
+            //var extensions = ExtensionHelper.GetInstance().Extensions;
 
-            foreach(var key in extensions.Keys)
-            {
-                if(extensions[key]!=null)
-                {
-                    ToolStripMenuItem mnuItem = extensions[key].GetExtensionItem();
-                    mnu_Main.Items.Add(mnuItem);
-                }
-            }
+            //foreach(var key in extensions.Keys)
+            //{
+            //    if(extensions[key]!=null)
+            //    {
+            //        ToolStripMenuItem mnuItem = extensions[key].GetExtensionItem();
+            //        mnu_Main.Items.Add(mnuItem);
+            //    }
+            //}
+
+            //if(this.MdiChildren.Length==0)
+            //{
+            //    var emptyFrm = new Common.Frm_Base();
+            //    emptyFrm.MdiParent = this;
+            //    emptyFrm.Show();
+            //}
+
+            //Common.ParentForm.SetParentForm(this);
         }
 
         protected override void OnPaint(PaintEventArgs e)

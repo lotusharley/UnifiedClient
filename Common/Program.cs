@@ -16,7 +16,6 @@ namespace Underflow.Common
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Base());
         }
     }
 }

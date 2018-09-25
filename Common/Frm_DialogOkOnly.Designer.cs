@@ -29,52 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.kryptonManager1 = new ComponentFactory.Krypton.Toolkit.KryptonManager(this.components);
-            this.Paltte_Manager = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.Paltte_Manager = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btn_OK = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pic_DlgImg = new System.Windows.Forms.PictureBox();
             this.txt_Message = new System.Windows.Forms.TextBox();
+            this.pic_DlgImg = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_DlgImg)).BeginInit();
             this.SuspendLayout();
-            // 
-            // kryptonManager1
-            // 
-            // 
-            // Paltte_Manager
-            // 
-            this.Paltte_Manager.BasePaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Black;
-            this.Paltte_Manager.ToolMenuStatus.Button.ButtonSelectedBorder = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.ButtonSelectedGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.ButtonSelectedGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.ButtonSelectedGradientMiddle = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.ButtonSelectedHighlight = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.ButtonSelectedHighlightBorder = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.OverflowButtonGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.OverflowButtonGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Button.OverflowButtonGradientMiddle = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.Paltte_Manager.ToolMenuStatus.Menu.MenuBorder = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(55)))));
-            this.Paltte_Manager.ToolMenuStatus.Menu.MenuItemText = System.Drawing.Color.White;
-            this.Paltte_Manager.ToolMenuStatus.MenuStrip.MenuStripFont = new System.Drawing.Font("微软雅黑", 9F);
-            this.Paltte_Manager.ToolMenuStatus.MenuStrip.MenuStripGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.Paltte_Manager.ToolMenuStatus.MenuStrip.MenuStripGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.Paltte_Manager.ToolMenuStatus.MenuStrip.MenuStripText = System.Drawing.Color.White;
-            this.Paltte_Manager.ToolMenuStatus.StatusStrip.StatusStripGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(25)))));
-            this.Paltte_Manager.ToolMenuStatus.StatusStrip.StatusStripGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(25)))));
-            this.Paltte_Manager.ToolMenuStatus.StatusStrip.StatusStripText = System.Drawing.Color.White;
-            this.Paltte_Manager.ToolMenuStatus.ToolStrip.ToolStripBorder = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
-            this.Paltte_Manager.ToolMenuStatus.ToolStrip.ToolStripContentPanelGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
-            this.Paltte_Manager.ToolMenuStatus.ToolStrip.ToolStripContentPanelGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
-            this.Paltte_Manager.ToolMenuStatus.ToolStrip.ToolStripDropDownBackground = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
-            this.kryptonManager1.GlobalPalette = this.Paltte_Manager;
-            this.kryptonManager1.GlobalPaletteMode = ComponentFactory.Krypton.Toolkit.PaletteModeManager.Custom;
             // 
             // Paltte_Manager
             // 
@@ -116,6 +83,19 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(498, 38);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // btn_OK
+            // 
+            this.btn_OK.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_OK.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_OK.Location = new System.Drawing.Point(395, 3);
+            this.btn_OK.Name = "btn_OK";
+            this.btn_OK.Size = new System.Drawing.Size(75, 32);
+            this.btn_OK.TabIndex = 1;
+            this.btn_OK.Text = "确定";
+            this.btn_OK.UseVisualStyleBackColor = true;
+            this.btn_OK.Click += new System.EventHandler(this.button1_Click);
+            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
@@ -133,19 +113,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(504, 334);
             this.tableLayoutPanel1.TabIndex = 1;
-            // 
-            // btn_OK
-            // 
-            this.btn_OK.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_OK.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_OK.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_OK.Location = new System.Drawing.Point(395, 3);
-            this.btn_OK.Name = "btn_OK";
-            this.btn_OK.Size = new System.Drawing.Size(75, 32);
-            this.btn_OK.TabIndex = 1;
-            this.btn_OK.Text = "确定";
-            this.btn_OK.UseVisualStyleBackColor = true;
-            this.btn_OK.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -167,14 +134,6 @@
             this.panel2.Size = new System.Drawing.Size(484, 269);
             this.panel2.TabIndex = 2;
             // 
-            // pic_DlgImg
-            // 
-            this.pic_DlgImg.Location = new System.Drawing.Point(18, 15);
-            this.pic_DlgImg.Name = "pic_DlgImg";
-            this.pic_DlgImg.Size = new System.Drawing.Size(48, 48);
-            this.pic_DlgImg.TabIndex = 0;
-            this.pic_DlgImg.TabStop = false;
-            // 
             // txt_Message
             // 
             this.txt_Message.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -185,6 +144,14 @@
             this.txt_Message.ReadOnly = true;
             this.txt_Message.Size = new System.Drawing.Size(445, 187);
             this.txt_Message.TabIndex = 1;
+            // 
+            // pic_DlgImg
+            // 
+            this.pic_DlgImg.Location = new System.Drawing.Point(18, 15);
+            this.pic_DlgImg.Name = "pic_DlgImg";
+            this.pic_DlgImg.Size = new System.Drawing.Size(48, 48);
+            this.pic_DlgImg.TabIndex = 0;
+            this.pic_DlgImg.TabStop = false;
             // 
             // Frm_DialogOkOnly
             // 
@@ -212,7 +179,6 @@
 
         #endregion
         private ComponentFactory.Krypton.Toolkit.KryptonPalette Paltte_Manager;
-        private ComponentFactory.Krypton.Toolkit.KryptonManager kryptonManager1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button btn_OK;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;

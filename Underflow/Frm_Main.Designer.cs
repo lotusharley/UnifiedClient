@@ -256,6 +256,7 @@
             this.Controls.Add(this.pnl_Title);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnu_Main;
             this.Name = "Frm_Main";
             this.Text = "Frm_Main";
